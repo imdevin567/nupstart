@@ -38,4 +38,10 @@ commander.command('web')
 		CLI.web();
 	});
 
+commander.command('clean')
+	.description('stops processes and removes Upstart files')
+	.action(function() {
+		CLI.clean();
+	});
+
 commander.parse(process.argv);
