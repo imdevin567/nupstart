@@ -20,4 +20,16 @@ commander.command('stop <script>')
 		CLI.stop(script);
 	});
 
+commander.command('stats [script]')
+	.description('shows stats for script(s)')
+	.action(function(script) {
+		CLI.stats(script);
+	});
+
+commander.command('web')
+	.description('starts web interface')
+	.action(function(script) {
+		CLI.web();
+	});
+
 commander.parse(process.argv);
