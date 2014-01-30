@@ -13,9 +13,6 @@
   "dependencies": {
     "commander" : "2.1.0"
   },
-  "scripts": {
-    "postinstall" : "./scripts/postinstall.sh"
-  },
   "main": "index.js",
   "repository": {
     "type": "git",
