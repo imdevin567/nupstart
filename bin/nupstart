@@ -8,6 +8,12 @@ var CLI			= require('../lib/CLI');
 // Gets current package version
 commander.version(pkg.version);
 
+commander.command('setup')
+	.description('creates necessary directories and files')
+	.action(function() {
+		CLI.setup();
+	});
+
 commander.command('start <script>')
 	.description('start script(s) as daemon')
 	.action(function(script) {
