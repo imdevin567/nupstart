@@ -1,15 +1,12 @@
 {
   "name": "nupstart",
+  "description": "Upstart for Node",
   "preferGlobal": "true",
   "version": "0.0.1",
   "engines" : {
     "node" : ">=0.8"
   },
-  "author": {
-    "name": "Devin Young",
-    "email": "devin@devinyoungweb.com",
-    "url": "http://devinyoungweb.com"
-  },
+  "author": "Devin Young <devin@devinyoungweb.com>",
   "bin": {
     "nupstart": "./bin/nupstart"
   },
@@ -18,5 +15,14 @@
   },
   "scripts": {
     "postinstall" : "./scripts/postinstall.sh"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imdevin567/nupstart.git"
+  },
+  "keywords": [
+    "upstart",
+    "daemon"
+  ]
 }
