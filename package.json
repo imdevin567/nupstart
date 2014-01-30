@@ -1,0 +1,19 @@
+{
+  "name": "nupstart",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "engines" : {
+    "node" : ">=0.8"
+  },
+  "author": {
+    "name": "Devin Young",
+    "email": "devin@devinyoungweb.com",
+    "url": "http://devinyoungweb.com"
+  },
+  "bin": {
+    "nupstart": "./bin/nupstart"
+  },
+  "dependencies": {
+    "commander"      : "2.1.0"
+  }
+}

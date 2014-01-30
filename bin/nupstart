@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+var commander 	= require('commander');
+var pkg 		= require('../package.json');
+
+var CLI			= require('../lib/CLI');
+
+// Gets current package version
+commander.version(pkg.version);
+
+commander.command('start <script>')
+	.description('start script(s) as daemon')
+	.action(function(script) {
+		CLI.start(script);
+	});
+
+commander.command('stop <script>')
+	.description('stops script(s)')
+	.action(function(script) {
+		CLI.stop(script);
+	});
+
+commander.parse(process.argv);
