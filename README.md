@@ -16,6 +16,8 @@ TODO
 - API and CLI to monitor processes
 - Web interface to monitor and launch applications
 
+### Node Dependencies
+- Commander 2.1.0
 
 [![Build Status](https://david-dm.org/imdevin567/nupstart.png)](https://david-dm.org/imdevin567/nupstart)
 
@@ -69,5 +71,5 @@ Nupstart is available through the MIT license.
 
 Author
 ------
-[Devin Young](http://github.com/imdevin567)
+##### [Devin Young] (http://github.com/imdevin567)
 ------------
