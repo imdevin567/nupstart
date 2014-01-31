@@ -9,11 +9,11 @@ Features
 - Creates and runs Upstart scripts for Node.js applications to run them as daemons in the background
 - Command-line interface to manage apps with a simple JSON config file
 - Simple API to manage apps programmatically
+- API and CLI to monitor processes
  
 
 TODO
 =====
-- API and CLI to monitor processes
 - Web interface to monitor and launch applications
 
 ### Node Dependencies
@@ -63,6 +63,8 @@ $ nupstart start all    # Creates and runs Upstart scripts for all apps specifie
 $ nupstart stop all     # Stops all apps specified in processfile
 
 $ nupstart clean        # Stops all apps in processfile and removes existing Upstart scripts
+
+$ nupstart stats		# Outputs a json string of the process stats
 ```
 
 License
