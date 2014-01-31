@@ -21,7 +21,7 @@ TODO
 
 ### Build Status
 
-Master : [![Build Status](https://api.travis-ci.org/imdevin567/nupstart.png?branch=master)](https://api.travis-ci.org/imdevin567/nupstart.png?branch=master)
+Master : [![Build Status](https://api.travis-ci.org/imdevin567/nupstart.png?branch=master)](https://travis-ci.org/imdevin567/nupstart)
 
 # Usage/Features
 
