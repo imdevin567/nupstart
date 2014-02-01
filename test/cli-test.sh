@@ -6,6 +6,7 @@ echo -e "\033[1mRunning tests:\033[0m"
 
 
 echo "####################### DEBUG ############################"
+echo "Node command = " $node
 echo "Nupstart Command = " $nupstart
 echo "Node version = " $nodeVersion
 $node -e "var os = require('os'); console.log('arch : %s\nplatform : %s\nrelease : %s\ntype : %s\nmem : %d', os.arch(), os.platform(), os.release(), os.type(), os.totalmem())"

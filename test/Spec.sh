@@ -1,10 +1,6 @@
 node="`type -P node`"
 nodeVersion="`$node -v`"
-nupstart="`pwd`/bin/nupstart"
-
-script="echo"
-
-file_path="test/fixtures"
+nupstart="$node `pwd`/bin/nupstart"
 
 sudo rm -rf /etc/nupstart
 
