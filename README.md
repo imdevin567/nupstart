@@ -75,3 +75,7 @@ Author
 ------
 ##### [Devin Young] (http://github.com/imdevin567)
 ------------
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/imdevin567/nupstart/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
